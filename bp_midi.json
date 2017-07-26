@@ -1,0 +1,18 @@
+{
+    "driver": {
+        "typename": "simpixel",
+        "num": 12
+    },
+
+    "layout": {
+        "typename": "matrix",
+        "width": 32,
+        "height": 60
+    },
+
+    "animation": {
+        "typename": "//git/github.com/rec/bp_midi/mp_midi/WX7Animation",
+        "lowest_note": 24,
+        "highest_note": 84
+    }
+}

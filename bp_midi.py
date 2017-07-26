@@ -26,7 +26,7 @@ class MidiAnimation(matrix.BaseMatrixAnim):
             getattr(self, msg.type)(msg)
 
 
-class WX7Animation(matrix.BaseMatrixAnim):
+class WX7Animation(MidiAnimation):
     MESSAGE_TYPES = 'note_on', 'control_change'
 
     def __init__(self, *args, lowest_note=0, highest_note=127, **kwds):
