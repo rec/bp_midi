@@ -1,7 +1,7 @@
 {
     "driver": {
         "typename": "simpixel",
-        "num": 12
+        "num": 1920
     },
 
     "layout": {
