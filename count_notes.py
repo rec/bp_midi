@@ -1,7 +1,6 @@
-from .. import log
 import functools
 
-MISSING_NOTE_ON_ERROR = 'Note off {0.note}:{0.channel} without note on'
+MISSING_NOTE_ON_ERROR = 'ERROR: Note off {0.note}:{0.channel} without note on'
 
 
 class NoteCounter:
@@ -21,7 +20,7 @@ class NoteCounter:
         elif count == 1:
             del self.notes[note]
         else:
-            log.error(MISSING_NOTE_ON_ERROR.format(message))
+            print(MISSING_NOTE_ON_ERROR.format(message))
 
     def combine(self, level=2):
         """Combines away n levels of a note counter."""

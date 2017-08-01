@@ -11,7 +11,7 @@
     },
 
     "animation": {
-        "typename": "//git/github.com/rec/bp_midi/mp_midi/WX7Animation",
+        "typename": "bp_midi.WX7Animation",
         "lowest_note": 24,
         "highest_note": 84
     }
